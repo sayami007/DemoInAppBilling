@@ -3,20 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
+    android:padding="10dp"
     tools:context="com.c3.www.inapp.app.MainActivity">
 
-    <Button
-        android:id="@+id/clickButton"
-        android:layout_width="88dp"
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:onClick="buttonClick"
-        android:text="Click me" />
+        android:layout_weight="1"
+        android:text="Buy for more information" />
 
     <Button
-        android:id="@+id/buyButton"
-        android:layout_width="88dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="buyClick"
         android:text="Buy" />
 </LinearLayout>
