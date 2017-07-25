@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.c3.www.inapp">
 
+    <uses-permission-sdk-23 android:name="com.android.vending.BILLING"/>
     <uses-permission android:name="com.android.vending.BILLING" />
     <application
         android:allowBackup="true"
