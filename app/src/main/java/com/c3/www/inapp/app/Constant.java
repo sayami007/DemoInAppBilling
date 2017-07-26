@@ -10,9 +10,13 @@ public class Constant {
     // Debug tag, for logging
     public static final String TAG = "TrivialDrive";
 
-    static final String SKU_PREMIUM = "premiums";
-    static final String SKU_GAS = "gas";
-    static final String SKU_INFINITE_GAS = "infinite_gas";
+    static final String SKU_PREMIUM = "android.test.purchased";
+    static final String SKU_GAS = "android.test.purchased";
+    static final String SKU_INFINITE_GAS = "android.test.purchased";
+//
+//    static final String SKU_PREMIUM = "premiums";
+//    static final String SKU_GAS = "gas";
+//    static final String SKU_INFINITE_GAS = "infinite_gas";
 
     static final int RC_REQUEST = 10001;
 
